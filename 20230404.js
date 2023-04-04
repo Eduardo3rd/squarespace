@@ -40,3 +40,8 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
   redraw();
 }
+
+function mousePressed() {
+  redraw();
+}
+
